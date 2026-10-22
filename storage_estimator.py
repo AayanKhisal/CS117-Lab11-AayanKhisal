@@ -10,7 +10,8 @@ def main():
 
     total_mb = num_files * avg_size_mb
 
-    print("Total storage needed:", total_mb, "MB")
+       print("Number of files:", num_files)
+       print("Total storage needed:", round(total_mb, 2), "MB")
 
 
 main()
