@@ -9,9 +9,8 @@ def main():
     avg_size_mb = float(input("Average file size (MB): "))
 
     total_mb = num_files * avg_size_mb
-
-       print("Number of files:", num_files)
-       print("Total storage needed:", round(total_mb, 2), "MB")
-
+    print("Number of files:", num_files)
+    print("Total storage needed:", round(total_mb, 2), "MB")
+    print("Total storage needed:", round(total_mb / 1024, 4), "GB")
 
 main()
